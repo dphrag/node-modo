@@ -1,0 +1,28 @@
+{
+    "name": "modo",
+    "version": "0.1.0",
+    "author": {
+        "name": "Nigel Fish",
+        "url": "http://github.com/dphrag"
+    },
+    "description": "Modo API wrapper",
+    "keywords": [
+        "api",
+        "wrapper",
+        "modo"
+    ],
+    "homepage": "http://github.com/dphrag/node-modo",
+
+    "main": "./lib/modo",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/dphrag/node-modo.git"
+    },
+    "dependencies": {
+        "request": "~2.25.0"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": ">=0.8"
+    }
+}
